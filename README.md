@@ -1,9 +1,12 @@
 # LoopSpeak
 
-Transform your device into a delightful reading companion with LoopSpeak! 
-Effortlessly bring your text to life as LoopSpeak narrates it in a continuous loop. 
-Perfect for hands-free listening, bedtime stories, or adding a touch of magic to your day. 
-Features include easy text input, a loop playback option, and a user-friendly interface. 
-Download LoopSpeak now and experience the joy of personalized narration at your fingertips. Your stories, your way. 
+Privacy Policy for LoopSpeak
+
+We do not collect any user data through the LoopSpeak app. Your privacy is important to us, and we are committed to ensuring that your information remains secure.
+
+Contact Us
+
+If you have any questions or concerns about our privacy policy, please contact us at pieternatanael@icloud.com
+
 
 
