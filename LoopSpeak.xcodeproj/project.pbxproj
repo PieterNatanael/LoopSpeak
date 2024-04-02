@@ -11,6 +11,7 @@
 		21E0A45E2B170DAD00E9D6CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0A45D2B170DAD00E9D6CF /* ContentView.swift */; };
 		21E0A4602B170DAE00E9D6CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E0A45F2B170DAE00E9D6CF /* Assets.xcassets */; };
 		21E0A4632B170DAE00E9D6CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E0A4622B170DAE00E9D6CF /* Preview Assets.xcassets */; };
+		21ECFDE02B99792300E90595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ECFDDF2B99792300E90595 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		21E0A45D2B170DAD00E9D6CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21E0A45F2B170DAE00E9D6CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21E0A4622B170DAE00E9D6CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21ECFDDE2B99718600E90595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		21ECFDDF2B99792300E90595 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +54,9 @@
 		21E0A45A2B170DAD00E9D6CF /* LoopSpeak */ = {
 			isa = PBXGroup;
 			children = (
+				21ECFDDE2B99718600E90595 /* Info.plist */,
 				21E0A45B2B170DAD00E9D6CF /* LoopSpeakApp.swift */,
+				21ECFDDF2B99792300E90595 /* AppDelegate.swift */,
 				21E0A45D2B170DAD00E9D6CF /* ContentView.swift */,
 				21E0A45F2B170DAE00E9D6CF /* Assets.xcassets */,
 				21E0A4612B170DAE00E9D6CF /* Preview Content */,
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21ECFDE02B99792300E90595 /* AppDelegate.swift in Sources */,
 				21E0A45E2B170DAD00E9D6CF /* ContentView.swift in Sources */,
 				21E0A45C2B170DAD00E9D6CF /* LoopSpeakApp.swift in Sources */,
 			);
@@ -275,16 +281,20 @@
 				DEVELOPMENT_TEAM = L295MT4VTH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoopSpeak/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = UIBackgroundModes;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = PieterNatanael.LoopSpeak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -304,16 +314,20 @@
 				DEVELOPMENT_TEAM = L295MT4VTH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoopSpeak/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = UIBackgroundModes;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = PieterNatanael.LoopSpeak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
