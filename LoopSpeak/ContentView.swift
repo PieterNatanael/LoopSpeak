@@ -107,87 +107,149 @@ struct ShowAdView: View {
    var onConfirm: () -> Void
 
     var body: some View {
-       VStack {
-           Text("Ad.")
-                          .font(.title)
-//                           .bold()
+        ScrollView {
+            VStack {
+                Text("Behind the Scenes.")
+                                    .font(.title)
+                                    .padding()
+                                    .foregroundColor(.white)
+
+                                // Your ad content here...
+
+                                Text("Thank you for buying our app with a one-time fee, it helps us keep up the good work. Explore these helpful apps as well. ")
+                    .font(.title3)
+                                    .foregroundColor(.white)
+                                    .padding(.horizontal)
+                                    .multilineTextAlignment(.center)
+                
+                
+                
+             
+             Text("SingLOOP.")
+                 .font(.title)
+ //                           .monospaced()
+                 .padding()
+                 .foregroundColor(.white)
+                 .onTapGesture {
+                     if let url = URL(string: "https://apps.apple.com/id/app/sing-l00p/id6480459464") {
+                         UIApplication.shared.open(url)
+                     }
+                 }
+ Text("Record your voice effortlessly, and play it back in a loop.") // Add your 30 character description here
+                    .font(.title3)
+//                    .italic()
+                   .multilineTextAlignment(.center)
+                   .padding(.horizontal)
+                   .foregroundColor(.white)
+                
+                Text("Time Tell.")
+                    .font(.title)
 //                           .monospaced()
-                          .padding()
-                          .foregroundColor(.white)
+                    .padding()
+                    .foregroundColor(.white)
+                    .onTapGesture {
+                        if let url = URL(string: "https://apps.apple.com/app/time-tell/id6479016269") {
+                            UIApplication.shared.open(url)
+                        }
+                    }
+  Text("it will announce the time every 30 seconds, no more guessing and checking your watch, for time-sensitive tasks, workouts, and mindfulness exercises.") // Add your 30 character description here
+                      .font(.title3)
+//                                 .italic()
+                      .multilineTextAlignment(.center)
+                      .padding(.horizontal)
+                      .foregroundColor(.white)
+                
+             
+                
+                Text("Insomnia Sheep.")
+                    .font(.title)
+     //                           .monospaced()
+                    .padding()
+                    .foregroundColor(.white)
+                    .onTapGesture {
+                        if let url = URL(string: "https://apps.apple.com/id/app/insomnia-sheep/id6479727431") {
+                            UIApplication.shared.open(url)
+                        }
+                    }
+             Text("Design to ease your mind and help you relax leading up to sleep.") // Add your 30 character description here
+                                 .font(.title3)
+//                                 .italic()
+                                 .padding(.horizontal)
+                                 .multilineTextAlignment(.center)
+                                 .foregroundColor(.white)
+                           
+                           Text("Dry Eye Read.")
+                               .font(.title)
+     //                           .monospaced()
+                               .padding()
+                               .foregroundColor(.white)
+                               .onTapGesture {
+                                   if let url = URL(string: "https://apps.apple.com/id/app/dry-eye-read/id6474282023") {
+                                       UIApplication.shared.open(url)
+                                   }
+                               }
+             Text("Go-to solution for a comfortable reading experience, by adjusting font size to suit your preference.") // Add your 30 character description here
+                                 .font(.title3)
+//                                 .italic()
+                                 .multilineTextAlignment(.center)
+                                 .padding(.horizontal)
+                                 .foregroundColor(.white)
+                           
+                           Text("iProgramMe.")
+                               .font(.title)
+     //                           .monospaced()
+                               .padding()
+                               .foregroundColor(.white)
+                               .onTapGesture {
+                                   if let url = URL(string: "https://apps.apple.com/id/app/iprogramme/id6470770935") {
+                                       UIApplication.shared.open(url)
+                                   }
+                               }
+             Text("Custom affirmations, schedule notifications, stay inspired daily.") // Add your 30 character description here
+                                 .font(.title3)
+//                                 .italic()
+                                 .multilineTextAlignment(.center)
+                                 .padding(.horizontal)
+                                 .foregroundColor(.white)
+                           
+                        
                       
-                      Text("Dry Eye Read.")
-                          .font(.title)
-//                           .monospaced()
-                          .padding()
-                          .foregroundColor(.white)
-                          .onTapGesture {
-                              if let url = URL(string: "https://apps.apple.com/id/app/dry-eye-read/id6474282023") {
-                                  UIApplication.shared.open(url)
-                              }
-                          }
-                      
-                      Text("iProgramMe.")
-                          .font(.title)
-//                           .monospaced()
-                          .padding()
-                          .foregroundColor(.white)
-                          .onTapGesture {
-                              if let url = URL(string: "https://apps.apple.com/id/app/iprogramme/id6470770935") {
-                                  UIApplication.shared.open(url)
-                              }
-                          }
-                      
-                      Text("LoopSpeak.")
-                          .font(.title)
-//                           .monospaced()
-                          .padding()
-                          .foregroundColor(.white)
-                          .onTapGesture {
-                              if let url = URL(string: "https://apps.apple.com/id/app/loopspeak/id6473384030") {
-                                  UIApplication.shared.open(url)
-                              }
-                          }
-                      
-                      Text("TimeTell.")
-                          .font(.title)
-//                           .monospaced()
-                          .padding()
-                          .foregroundColor(.white)
-                          .onTapGesture {
-                              if let url = URL(string: "https://apps.apple.com/app/time-tell/id6479016269") {
-                                  UIApplication.shared.open(url)
-                              }
-                          }
-                      
-                      Text("TemptationTrack.")
-                          .font(.title)
-//                           .monospaced()
-                          .padding()
-                          .foregroundColor(.white)
-                          .onTapGesture {
-                              if let url = URL(string: "https://apps.apple.com/id/app/temptationtrack/id6471236988") {
-                                  UIApplication.shared.open(url)
-                              }
-                          }
+                           Text("TemptationTrack.")
+                               .font(.title)
+     //                           .monospaced()
+                               .padding()
+                               .foregroundColor(.white)
+                               .onTapGesture {
+                                   if let url = URL(string: "https://apps.apple.com/id/app/temptationtrack/id6471236988") {
+                                       UIApplication.shared.open(url)
+                                   }
+                               }
+             Text("One button to track milestones, monitor progress, stay motivated.") // Add your 30 character description here
+                                 .font(.title3)
+//                                 .italic()
+                                 .multilineTextAlignment(.center)
+                                 .padding(.horizontal)
+                                 .foregroundColor(.white)
 
 
-           Spacer()
+               Spacer()
 
-           Button("Close") {
-               // Perform confirmation action
-               onConfirm()
+               Button("Close") {
+                   // Perform confirmation action
+                   onConfirm()
+               }
+               .font(.title)
+               .padding()
+               .foregroundColor(.black)
+               .background(Color.white)
+               .cornerRadius(25.0)
+               .padding()
            }
-           .font(.title)
            .padding()
-           .foregroundColor(.black)
-           .background(Color.white)
-           .cornerRadius(25.0)
-           .padding()
-       }
+           .background(Color(#colorLiteral(red: 0.2605174184, green: 0.2605243921, blue: 0.260520637, alpha: 1)))
+           .cornerRadius(15.0)
        .padding()
-       .background(Color(#colorLiteral(red: 0, green: 0.5898008943, blue: 1, alpha: 1)))
-       .cornerRadius(15.0)
-       .padding()
+        }
    }
 }
 
@@ -196,7 +258,7 @@ struct ShowExplainView: View {
 
     var body: some View {
        VStack {
-           Text("Type or paste the words, then press the start button to initiate the speech loop.")
+           Text("Type or paste your text, then press the start button to initiate the speech loop.")
                .font(.title)
                .multilineTextAlignment(.center)
 //                       .monospaced()
@@ -219,7 +281,7 @@ struct ShowExplainView: View {
            .padding()
        }
        .padding()
-       .background(Color(#colorLiteral(red: 0, green: 0.5898008943, blue: 1, alpha: 1)))
+       .background(Color(#colorLiteral(red: 0.2605174184, green: 0.2605243921, blue: 0.260520637, alpha: 1)))
        .cornerRadius(15.0)
        .padding()
    }
