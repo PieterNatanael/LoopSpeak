@@ -8,6 +8,8 @@ Contact Us
 
 If you have any questions or concerns about our privacy policy, please contact us at pieternatanael@icloud.com
 
+Developer : Pieter Yoshua Natanael
+
 
 Arabic:
 سياسة الخصوصية لـ LoopSpeakنحن لا نقوم بجمع أي بيانات مستخدم من خلال تطبيق LoopSpeak. خصوصيتك مهمة بالنسبة لنا، ونحن ملتزمون بضمان بقاء معلوماتك آمنة.اتصل بناإذا كان لديك أي أسئلة أو مخاوف حول سياسة الخصوصية لدينا، يرجى الاتصال بنا على pieternatanael@icloud.com
