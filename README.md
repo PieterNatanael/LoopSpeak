@@ -1,8 +1,8 @@
-# LoopSpeak
+# LoopSpeak app, Read Loop app, Text Loop app
 
 Privacy Policy for LoopSpeak
 
-We do not collect any user data through the LoopSpeak app. Your privacy is important to us, and we are committed to ensuring that your information remains secure.
+We do not collect any user data through the LoopSpeak app, Read Loop app, Text Loop app. Your privacy is important to us, and we are committed to ensuring that your information remains secure.
 
 Contact Us
 
